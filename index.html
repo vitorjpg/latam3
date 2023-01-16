@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="stile.css" />
+    <script defer src="./script.js"></script>
+    <title>Singin</title>
+  </head>
+  <body>
+    
+    <div class="container">
+      <div class="card">
+        <img src="latam.png" width="150px">
+
+        <div id="msgError"></div>
+
+        <div class="label-float">
+          <input type="text" id="usuario" paceholder="cpf obrigatório" required />
+          <label id="userLabel" for="usuario">CPF *</label>
+          <div class="error" id="email-required-error">CPF é obrigatório</div>
+        </div>
+
+        <div class="label-float">
+          <input type="password" id="senha" paceholder="" required />
+          <label id="senhaLabel" for="senha">Senha *</label>
+          <div class="error" id="email-required-error">Senha é obrigatória</div>
+          <i class="fa fa-eye" aria-hidden="true"></i>
+        </div>
+        <p>
+          <button>
+        <div class="justify-center">
+        <a href="index2.html" onClick="javascript:window.open('https://latampass.latam.com/pt_br/')">Entrar</a>
+        </div>
+      </button>
+      </p>
+
+        <div class="justify-center">
+          <hr />
+        </div>
+<!--
+        <p>
+          Viagens com a Latam com os melhores preços
+        </p>
+-->
+      </div>
+    </div>
+      <script src="js/signin.js"></script>
+  </body>
+</html>
